@@ -1,0 +1,28 @@
+# ---- C++ / sender build artifacts ----
+# The compiled sender binary — rebuilt from source, never committed
+src/sender/sender
+src/sender/*.o
+src/sender/*.out
+*.exe
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Fuzzer runtime output ----
+# Logs and captured crash data from actual runs stay local, not on GitHub
+*.log
+*.pcap
+logs/
+captures/
+
+# ---- Editor / OS noise ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

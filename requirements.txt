@@ -1,0 +1,8 @@
+# Python dependencies for the fuzzer
+# Install with:  pip install -r requirements.txt
+
+# Bluetooth packet crafting and mutation
+scapy>=2.5.0
+
+# --- add others here as you use them, e.g. ---
+# pybluez        # raw Bluetooth sockets from Python (can be fiddly to install)
