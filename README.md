@@ -65,3 +65,6 @@ The Python harness calls the compiled C++ sender as a subprocess for flood tests
 - [BlueZ source](https://git.kernel.org/pub/scm/bluetooth/bluez.git)
 - [Scapy Bluetooth layer](https://scapy.readthedocs.io/en/latest/layers/bluetooth.html)
 - Background reading: KNOB (CVE-2019-9506), BLUFFS (CVE-2023-24023)
+- https://github.com/ArmisSecurity/blueborne
+- https://francozappa.github.io/publication/2023/bluffs/
+- https://knobattack.com/
