@@ -21,7 +21,6 @@ The point isn't "used two languages" — it's knowing *where* the handoff belong
 
 The full write-up lives in [docs/methodology.md](docs/methodology.md). The short version: baseline the target's normal behaviour, send mutated traffic, check responsiveness after each case, and on failure capture the input and confirm it reproduces. Where a failure is reproducible, the aim is to trace it back to the relevant stack code and understand the root cause.
 
-Specific crash inputs and root-cause detail are kept in private working notes, not here.
 
 ---
 
